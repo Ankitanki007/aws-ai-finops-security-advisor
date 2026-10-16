@@ -1,0 +1,52 @@
+build/
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Python local files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated deployment packages
+build/
+
+# Real AWS scan reports
+reports/
+scan-*.json
+latest-advisor-report.json
+advisor-ai-report.json
+advisor-ai-retry-report.json
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Deployment packages
+build/
+
+# Real AWS scan reports
+reports/
+scan-*.json
+latest-advisor-report.json
+advisor-ai-report.json
+advisor-ai-retry-report.json
